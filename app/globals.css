@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: oklch(1 0 0);
+  --foreground: #050530;
+  --primary: #050530;
+  /* Dark Navy */
+  --secondary: #7c3aed;
+  /* Purple */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  @apply antialiased;
+}
+
+@layer components {
+  .btn-navy {
+    @apply bg-primary text-white py-3 px-8 rounded-full font-bold transition-all duration-200 hover:bg-primary/90 active:scale-95 cursor-pointer flex items-center justify-center;
+  }
+
+  .interactive-pill {
+    @apply transition-all duration-200 hover:bg-primary hover:text-white active:scale-95 cursor-pointer;
+  }
+}
+
+/* Custom Responsive Typography */
+@layer utilities {
+  .text-responsive-h1 {
+    font-size: clamp(1.75rem, 5vw + 1rem, 3.5rem);
+    line-height: 1.1;
+  }
+
+  .text-responsive-h2 {
+    font-size: clamp(1.25rem, 3vw + 1rem, 2.5rem);
+    line-height: 1.2;
+  }
 }
