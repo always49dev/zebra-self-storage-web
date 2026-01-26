@@ -64,10 +64,10 @@ export default function MobileMenu({ isOpen, onClose, navLinks }: MobileMenuProp
                     </nav>
 
                     <div className="mt-12 px-6 grid grid-cols-3 gap-4">
-                        <button className="flex flex-col items-center justify-center p-4 rounded-2xl bg-slate-50 hover:bg-slate-100 transition-colors text-primary group">
+                        <Link href="/find-location" onClick={onClose} className="flex flex-col items-center justify-center p-4 rounded-2xl bg-slate-50 hover:bg-slate-100 transition-colors text-primary group">
                             <MapPin className="w-6 h-6 mb-2 group-hover:text-secondary transition-colors" />
                             <span className="text-xs font-bold uppercase tracking-widest">Find</span>
-                        </button>
+                        </Link>
                         <button className="flex flex-col items-center justify-center p-4 rounded-2xl bg-slate-50 hover:bg-slate-100 transition-colors text-primary group">
                             <MessageCircle className="w-6 h-6 mb-2 group-hover:text-secondary transition-colors" />
                             <span className="text-xs font-bold uppercase tracking-widest">Chat</span>

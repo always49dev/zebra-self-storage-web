@@ -21,8 +21,8 @@ export default function Navbar() {
         { name: "Home", href: "/" },
         { name: "Personal", href: "#personal" },
         { name: "Business", href: "#business" },
-        { name: "Student", href: "#student" },
-        { name: "Find Local Storage", href: "#find" },
+        { name: "Insurance", href: "/insurance" },
+        { name: "Find Local Storage", href: "/find-location" },
     ];
 
     return (
@@ -72,9 +72,9 @@ export default function Navbar() {
                             <Menu className="w-7 h-7" />
                         </button>
 
-                        <button className="hidden lg:flex btn-navy px-6 py-2.5 text-sm">
+                        <Link href="/find-location" className="hidden lg:flex btn-navy px-6 py-2.5 text-sm">
                             Find Storage
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </nav>
