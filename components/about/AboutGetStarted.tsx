@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function AboutGetStarted() {
     return (
-        <section className="px-4 py-24 bg-white">
-            <div className="max-w-4xl mx-auto flex flex-col items-center">
-                <h2 className="text-3xl font-bold text-primary mb-8 tracking-tight">
+        <section className="px-4 py-32 bg-white">
+            <div className="max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left">
+                <h2 className="text-4xl sm:text-5xl font-black text-primary tracking-tighter">
                     Get started
                 </h2>
-                <Link href="/find-location" className="btn-navy w-full max-w-lg py-5 text-xl">
+                <Link href="/find-location" className="btn-navy w-full lg:w-auto px-16 py-5 text-xl">
                     Find your store
                 </Link>
             </div>
