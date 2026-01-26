@@ -20,9 +20,8 @@ export default function Navbar() {
     const navLinks = [
         { name: "Home", href: "/" },
         { name: "About", href: "/about" },
-        { name: "Personal", href: "#personal" },
-        { name: "Business", href: "#business" },
         { name: "Insurance", href: "/insurance" },
+        { name: "FAQ", href: "/faq" },
         { name: "Find Local Storage", href: "/find-location" },
     ];
 
