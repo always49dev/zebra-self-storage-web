@@ -67,16 +67,17 @@ export default function Footer() {
                             <ul className="space-y-4">
                                 <li><Link href="/about" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Who we are</Link></li>
                                 <li><Link href="/about" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Our vision</Link></li>
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Contact Us</Link></li>
+                                <li><Link href="/contact" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Contact Us</Link></li>
                             </ul>
                             <ul className="space-y-4">
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Careers</Link></li>
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Privacy Policy</Link></li>
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">T&Cs</Link></li>
+                                <li><Link href="/careers" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Careers</Link></li>
+                                <li><Link href="/privacy" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Privacy Policy</Link></li>
+                                <li><Link href="/terms" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">T&Cs</Link></li>
                             </ul>
                             <ul className="space-y-4">
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Sitemap</Link></li>
-                                <li><Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Blog</Link></li>
+                                <li><Link href="/pricing" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">How it works</Link></li>
+                                <li><Link href="/sizing-guide" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Unit Size Guide</Link></li>
+                                <li><Link href="/insurance" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Insurance Info</Link></li>
                             </ul>
                         </div>
                     </div>

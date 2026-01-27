@@ -1,7 +1,7 @@
 import LocationHeader from "@/components/find-location/LocationHeader";
 import LocationMap from "@/components/find-location/LocationMap";
 import LocationList from "@/components/find-location/LocationList";
-import GetStartedBanner from "@/components/find-location/GetStartedBanner";
+import GetStartedBanner from '@/components/shared/GetStartedBanner';
 
 export const metadata = {
     title: "Find a Location | Zebra Self Storage",
