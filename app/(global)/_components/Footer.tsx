@@ -54,7 +54,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-black mb-8 tracking-tight">Self storage types</h3>
                         <div className="grid grid-cols-3 gap-4">
-                            <Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Personal</Link>
+                            <Link href="/self-storage/personal" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Personal</Link>
                             <Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Business</Link>
                             <Link href="#" className="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">Student</Link>
                         </div>
